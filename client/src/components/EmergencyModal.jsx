@@ -4,7 +4,7 @@ function EmergencyModal({ open, onClose }) {
   return (
     <div className="fixed inset-0 bg-black/60 flex justify-center items-center z-50">
 
-      <div className="bg-slate-900 p-6 rounded-2xl w-[400px] border border-slate-700">
+      <div className="bg-white p-6 rounded-2xl w-[400px] border border-slate-700">
 
         <div className="flex justify-between items-center mb-4">
           <h2 className="text-xl font-bold">

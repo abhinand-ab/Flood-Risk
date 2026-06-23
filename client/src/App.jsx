@@ -13,7 +13,7 @@ function App() {
   const [showContacts, setShowContacts] = useState(false);
 
   return (
-    <div className="min-h-screen bg-slate-950 text-white flex flex-col lg:flex-row">
+    <div className="min-h-screen bg-slate-100  text-slate-900 flex flex-col lg:flex-row">
       <Sidebar
         setRiskData={setRiskData}
         setUserLocation={setUserLocation}
@@ -28,7 +28,7 @@ function App() {
 
         <WeatherCard weather={weather} />
 
-        <div className="bg-gradient-to-br from-slate-950 via-slate-900 to-blue-950 rounded-2xl p-5 mx-4 mb-4 border border-slate-800">
+        <div className="bg-gradient-to-br from-slate-950 via-slate-900 to-blue-950 rounded-2xl p-5 mx-4 mb-4 border border-slate-200">
           <h3 className="text-lg font-bold mb-3">Safety Recommendation</h3>
 
           <p className="text-slate-300">

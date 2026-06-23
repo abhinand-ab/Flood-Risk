@@ -48,7 +48,7 @@ function Sidebar({ setRiskData, setUserLocation, setWeather, setShowContacts }) 
   };
 
   return (
-   <div className="w-full lg:w-72 bg-black/30backdrop-blur-xl border-r border-white/10 border-b lg:border-b-0 lg:border-r border-slate-800 p-4 lg:p-6">
+   <div className="w-full lg:w-72 bg-black/30backdrop-blur-xl border-r border-white/10 border-b lg:border-b-0 lg:border-r border-slate-200 p-4 lg:p-6">
 
       <h1 className="text-2xl font-bold">
        🌊 Flood Risk Intelligence System
