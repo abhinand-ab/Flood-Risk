@@ -48,7 +48,7 @@ function Sidebar({ setRiskData, setUserLocation, setWeather, setShowContacts }) 
   };
 
   return (
-    <div className="w-72 bg-slate-900 border-r border-slate-800 p-6">
+   <div className="w-full lg:w-72 bg-slate-900 border-b lg:border-b-0 lg:border-r border-slate-800 p-4 lg:p-6">
 
       <h1 className="text-2xl font-bold">
         Flood Risk Platform
@@ -58,7 +58,7 @@ function Sidebar({ setRiskData, setUserLocation, setWeather, setShowContacts }) 
 
         <button
           onClick={analyzeLocation}
-          className="w-full bg-blue-600 p-3 rounded-xl"
+          className="w-full bg-blue-600 py-3 px-4 rounded-xl text-sm sm:text-base"
         >
           Analyze Location
         </button>

@@ -13,7 +13,7 @@ function App() {
   const [showContacts, setShowContacts] = useState(false);
 
   return (
-    <div className="h-screen bg-slate-950 text-white flex">
+    <div className="min-h-screen bg-slate-950 text-white flex flex-col lg:flex-row">
       <Sidebar
         setRiskData={setRiskData}
         setUserLocation={setUserLocation}
@@ -46,7 +46,7 @@ function App() {
           </p>
         </div>
 
-        <div className="flex-1 p-4">
+        <div className="flex-1 px-2 py-2 lg:px-4 lg:py-4">
           <MapView userLocation={userLocation} />
         </div>
       </div>

@@ -14,7 +14,7 @@ function AlertBanner({ riskData }) {
         ${colors[level]}
         p-4
         text-center
-        text-lg
+        text-sm sm:text-base lg:text-lg
         font-bold
         shadow-lg
       `}

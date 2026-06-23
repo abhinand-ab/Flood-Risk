@@ -63,7 +63,7 @@ function MapView({ userLocation }) {
   console.log("CURRENT ZONES:", zones);
 
   return (
-    <div className="h-full w-full overflow-hidden rounded-2xl">
+  <div className="h-[450px] lg:h-full w-full overflow-hidden rounded-2xl shadow-lg">
       <MapContainer
         center={[10.8505, 76.2711]}
         zoom={8}
