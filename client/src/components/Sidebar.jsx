@@ -48,10 +48,10 @@ function Sidebar({ setRiskData, setUserLocation, setWeather, setShowContacts }) 
   };
 
   return (
-   <div className="w-full lg:w-72 bg-slate-900 border-b lg:border-b-0 lg:border-r border-slate-800 p-4 lg:p-6">
+   <div className="w-full lg:w-72 bg-black/30backdrop-blur-xl border-r border-white/10 border-b lg:border-b-0 lg:border-r border-slate-800 p-4 lg:p-6">
 
       <h1 className="text-2xl font-bold">
-        Flood Risk Platform
+       🌊 Flood Risk Intelligence System
       </h1>
 
       <div className="mt-8 space-y-4">
@@ -71,7 +71,7 @@ function Sidebar({ setRiskData, setUserLocation, setWeather, setShowContacts }) 
         </button>
       </div>
       <div className="absolute bottom-4 text-sm text-slate-200">
-        Powered by OpenWeather & OpenStreetMap
+        Powered by OpenWeather • MongoDB Atlas • OpenStreetMap
     </div>
     </div>
     

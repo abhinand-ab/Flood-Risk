@@ -2,10 +2,13 @@ function AlertBanner({ riskData }) {
   const level = riskData?.riskLevel || "none";
 
   const colors = {
-    high: "bg-red-600",
-    medium: "bg-orange-500",
-    low: "bg-green-600",
-    none: "bg-slate-700"
+    high:"bg-gradient-to-r from-red-700 to-red-500"
+
+    medium:"bg-gradient-to-r from-orange-600 to-yellow-500"
+
+    low:"bg-gradient-to-r from-green-700 to-green-500"
+
+    none:"bg-gradient-to-r from-slate-700 to-slate-600"
   };
 
   return (

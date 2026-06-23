@@ -35,8 +35,10 @@ function StatsCards({ riskData }) {
         <div
           key={index}
           className="
-          bg-slate-900
-          border border-slate-800
+          bg-white/5
+          backdrop-blur-lg
+          border border-white/10
+          shadow-xl
           rounded-2xl
           p-5
           hover:border-blue-500

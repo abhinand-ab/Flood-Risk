@@ -28,7 +28,7 @@ function App() {
 
         <WeatherCard weather={weather} />
 
-        <div className="bg-slate-900 rounded-2xl p-5 mx-4 mb-4 border border-slate-800">
+        <div className="bg-gradient-to-br from-slate-950 via-slate-900 to-blue-950 rounded-2xl p-5 mx-4 mb-4 border border-slate-800">
           <h3 className="text-lg font-bold mb-3">Safety Recommendation</h3>
 
           <p className="text-slate-300">
