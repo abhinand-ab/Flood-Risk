@@ -37,14 +37,16 @@ function MapView({ userLocation }) {
   }, []);
 
   const fetchZones = async () => {
-    try {
-      const res = await API.get("/zones");
-      setZones(res.data);
-    } catch (error) {
-      console.error(error);
-    }
-  };
+  try {
+    const res = await API.get("/zones");
 
+    console.log("ZONES RECEIVED:", res.data);
+
+    setZones(res.data);
+  } catch (error) {
+    console.error(error);
+  }
+};
   const getColor = (riskLevel) => {
     switch (riskLevel) {
       case "high":
@@ -57,6 +59,8 @@ function MapView({ userLocation }) {
         return "#95a5a6";
     }
   };
+
+  console.log("CURRENT ZONES:", zones);
 
   return (
     <div className="h-full w-full overflow-hidden rounded-2xl">
